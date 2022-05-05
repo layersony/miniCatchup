@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content:space-between;
+}
+nav > .logo, .thelinks{
+  margin: 15px;
+}
+nav > .logo > h3{
+  font-size: 30px;
+  color: white;
+}
+
+nav > .thelinks > ul > li{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+nav > .thelinks > ul > li > .submit{
+  padding: 10px;
+  color: white;
+  background-color: blue;
+}
+
+#sectHeader{
+  opacity: 0.8;
+  background-image: url("../images/background.jpg");
+  background-size: cover; 
+  background-position: center center;
+  height:60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#sectHeader > .header{
+  text-align: center;
+  color: white;
+}
+#sectHeader > .header > h3{
+  font-size: 50px;
+}
+
+#sectBoutMe{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+#sectBoutMe > .boutme{
+  display: flex;
+}
+
+#sectBoutMe > .boutme > .leftside, .rightside{
+  width: 50%;
+}
+
+#sectBoutMe > .boutme > .leftside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sectBoutMe > .boutme > .rightside{
+  padding-right: 30px;
+}
+
+#sectBoutMe > .boutme > .rightside > button{
+  background-color: cornflowerblue;
+  padding: 5px;
+  color: white;
+}
